@@ -3,7 +3,7 @@ const product = document.querySelector("#product");
 const quantity = document.querySelector("#qty");
 const table = document.querySelector("table");
 
-
+//Event Listnerer for the Form
 form.addEventListener("submit", (e) => {
     e.preventDefault();
 
