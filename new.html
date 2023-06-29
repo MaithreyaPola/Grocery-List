@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+    <div class="section">
+        <div class="heading">
+            <div class="components">
+                <p class="title is-1 is-spaced">Grocery List</p>
+                <form action="/nowhere">
+                    <div class="field">
+                        <label class="label pl-5" for="item">Product</label>
+                        <div class="column is-half">
+                            <input class="input" id="product" type="text" placeholder="Enter a Product">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="label pl-5" for="item">Quantity</label>
+                        <div class="column is-half">
+                            <input class="input" id="qty" type="number" placeholder="Quantity">
+                        </div>
+                    </div>
+                    <div class="btn pb-4 pl-5">
+                        <button type="submit" class="button is-success is-rounded">Add</button>
+                    </div>
+                </form>
+                <div class="table-container">
+                    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                            <th>Edit</th>
+                            <th>Delete</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="content has-text-centered">
+              <p>
+                Designed by <span class="tag is-success is-light">Maithreya Pola</span>
+              </p>
+            </div>
+          </footer>
+    </div>
+
+    <script src="new.js"></script>
+</body>
+
+</html>
