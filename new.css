@@ -4,9 +4,7 @@
   color: #333;
   font-family: Arial, sans-serif;
   font-size: 14px;
-  text-align: middle;
   border-radius: 10px;
-  overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   margin: auto;
   margin-top: 50px;
@@ -18,4 +16,8 @@
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+.button.is-small:not(.is-rounded) {
+  border-radius: 20px;
 }

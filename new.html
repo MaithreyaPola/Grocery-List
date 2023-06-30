@@ -9,32 +9,32 @@
 <body>
     <div class="section">
         <div class="heading">
-            <div class="components">
+            <div class="container components">
                 <p class="title is-1 is-spaced">Grocery List</p>
                 <form action="/nowhere">
                     <div class="field">
                         <label class="label pl-5" for="item">Product</label>
                         <div class="column is-half">
-                            <input class="input" id="product" type="text" placeholder="Enter a Product">
+                            <input class="input is-focused" id="product" type="text" placeholder="Enter a Product">
                         </div>
                     </div>
                     <div class="field">
                         <label class="label pl-5" for="item">Quantity</label>
                         <div class="column is-half">
-                            <input class="input" id="qty" type="number" placeholder="Quantity">
+                            <input class="input is-focused" id="qty" type="number" placeholder="Quantity">
                         </div>
                     </div>
                     <div class="btn pb-4 pl-5">
-                        <button type="submit" class="button is-success is-rounded">Add</button>
+                        <button type="submit" class="button is-dark is-rounded">Add</button>
                     </div>
                 </form>
-                <div class="table-container">
-                    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+                <div class="container table-container">
+                    <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth ">
                         <tr>
-                            <th>Item</th>
-                            <th>Quantity</th>
-                            <th>Edit</th>
-                            <th>Delete</th>
+                            <th class="has-text-centered">Item</th>
+                            <th class="has-text-centered">Quantity</th>
+                            <th class="has-text-centered">Edit</th>
+                            <th class="has-text-centered">Delete</th>
                         </tr>
                     </table>
                 </div>
@@ -42,11 +42,11 @@
         </div>
         <footer class="footer">
             <div class="content has-text-centered">
-              <p>
-                Designed by <span class="tag is-success is-light">Maithreya Pola</span>
-              </p>
+                <p>
+                    Designed by <span class="tag is-success is-light">Maithreya Pola</span>
+                </p>
             </div>
-          </footer>
+        </footer>
     </div>
 
     <script src="new.js"></script>
